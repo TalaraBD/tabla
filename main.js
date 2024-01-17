@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var tr = document.createElement("tr");
 
             // Agregar celdas a la fila
-            tr.innerHTML += "<td>" + fila.properties.COMPONENTE + "</td>";
+            tr.innerHTML += "<td><a href='componentes/componente13/componente13.html'>" + fila.properties.COMPONENTE + "</a></td>";
             tr.innerHTML += "<td>" + fila.properties.NOMBRE + "</td>";
             tr.innerHTML += "<td>" + fila.properties.SECTOR + "</td>";
             tr.innerHTML += "<td>" + fila.properties.PAQUETE + "</td>";
