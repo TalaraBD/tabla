@@ -28,6 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Llamar a la función para agregar filas
     agregarFilas(componentesData2, url2);
-    agregarFilas(componentesData3, url3);
     agregarFilas(componentesData4, url4);
+    agregarFilas(componentesData3, url3);
 });
